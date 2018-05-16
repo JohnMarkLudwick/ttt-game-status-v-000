@@ -89,7 +89,7 @@ end
 
 def winner(board)
   if winning_index = won?(board)[0]
-    binding.pry
+    board[winning_index]
   end
 end  
 
