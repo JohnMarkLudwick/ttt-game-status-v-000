@@ -90,6 +90,8 @@ end
 def winner(board)
   if winning_index = won?(board)[0]
     board[winning_index]
+  else
+    nil
   end
 end  
 
