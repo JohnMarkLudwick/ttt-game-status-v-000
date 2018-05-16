@@ -89,7 +89,7 @@ end
 def winner(board)
   if 
     return "X"
-  elsif position_taken == "O"
+  elsif position_taken == 
     return "O"
   else
     false
