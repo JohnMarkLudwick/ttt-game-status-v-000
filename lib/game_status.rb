@@ -88,8 +88,8 @@ def over?(board)
 end
 
 def winner(board)
-  if winning_index = won?(board)[0]
-    board[winning_index]
+  if winning_index = won?(board)
+    board[winning_index[0]]
   else
     nil
   end
