@@ -87,10 +87,10 @@ def over?(board)
 end
 
 def winner(board)
-  if 
-    return "X"
-  elsif position_taken == 
-    return "O"
+  if position_1 == "X" && position_2 == "X" && position_3 == "X"
+    return
+  elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
+    return
   else
     false
   end
